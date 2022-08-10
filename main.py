@@ -2,6 +2,7 @@ import mlflow
 import argparse
 
 def main(training = False):
+    mlflow.set_tracking_uri('http://localhost:2038')
     with mlflow.start_run() as run:
         if training:
             print("######### TRAINING #################")
