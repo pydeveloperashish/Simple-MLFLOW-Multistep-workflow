@@ -1,0 +1,10 @@
+name: Simpledemo
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.7.6
+
+  - pip:
+    - mlflow==1.27.0
+  
